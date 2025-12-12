@@ -1,0 +1,21 @@
+# 忽略 Python 缓存
+__pycache__/
+*.py[cod]
+
+# 忽略虚拟环境
+venv/
+.conda/
+
+# 忽略训练权重文件 (非常大)
+*.pt
+*.onnx
+
+# 忽略训练结果和日志
+runs/
+
+# 忽略数据集 (如果数据集很大，建议不要上传到 GitHub)
+yolo_task/datasets/
+
+# 忽略本地配置文件
+.vscode/
+.idea/

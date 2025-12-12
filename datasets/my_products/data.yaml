@@ -1,0 +1,9 @@
+# data.yaml
+train: images/train
+val: images/val
+
+# 类别数量
+nc: 5 
+
+# 类别名称（必须和您的标注一致！）
+names: ['water_nongfu_red', 'water_nongfu_green', 'shampoo_headshoulder', 'tea_molihua', 'cookie_quduoduo']
